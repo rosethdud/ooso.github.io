@@ -1,0 +1,162 @@
+@charset "utf-8";
+@import url(reset.css);
+
+
+@media all and (max-width:1024px) {
+
+    html,
+    body {
+        overflow-x: hidden
+    }
+
+    footer,
+    #container,
+    .header {
+        width: 1024px;
+        position: relative
+    }
+
+    header {
+        background-attachment: scroll
+    }
+
+    .intro {
+        position: absolute;
+        left: 38%
+    }
+
+    .gnb {
+        width: 90%;
+        height: 60px;
+        position: absolute;
+        top: 17%
+    }
+
+    .site_gnb p {
+        display: none
+    }
+
+    .relative_site {
+        font-size: 1rem;
+        width: 70%
+    }
+
+    #container .container_wrap article,
+    #container .container_wrap .looking,
+    #container .container_wrap .relative,
+    #container .container_wrap aside,
+    #container .container_wrap .notice {
+        width: 924px;
+    }
+
+    #container .container_wrap article div {
+        width: 90%;
+        height: 550px;
+        background-size: 50px 50px
+    }
+
+
+    #container .container_wrap article a {
+        width: 100%;
+    }
+
+    #container .container_wrap article img {
+        width: 100%;
+    }
+
+    #container .container_wrap article a .txt {
+        width: 95%;
+        background-position: right center
+    }
+
+    #container .container_wrap article a .date {
+        float: left;
+        font-size: 1.1rem;
+    }
+
+    #container .container_wrap .looking h2 {
+        padding: 0 0 0 5%
+    }
+
+    #container .container_wrap .looking ul {
+        width: 90%;
+    }
+
+    #container .container_wrap .looking ul li {
+        width: 50%;
+        height: 450px;
+        background-size: 50px 50px
+    }
+
+    #container .container_wrap .btn_apply {
+        background-size: 40px 40px;
+        width: 40px;
+        bottom: 12%
+    }
+
+
+    #container .container_wrap .looking .swap_txt {
+        display: none;
+    }
+
+    #container .container_wrap .relative_con section {
+        width: 50%;
+    }
+
+    #container .container_wrap .relative_con section .txt {
+        font-size: 1.2rem
+    }
+
+    #container .container_wrap aside span {
+        font-size: 0.9rem
+    }
+
+    #container .container_wrap aside p {
+        margin: 0 0 3% 40%
+    }
+
+    #container .container_wrap .notice {
+        background-size: 60px 60px
+    }
+
+    #container .container_wrap .notice ul {
+        width: 100%
+    }
+
+    #container .container_wrap .notice ul li {
+        font-size: 1.1rem;
+        line-height: 3.5
+    }
+
+    #container .container_wrap .notice ul li:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+    #container .container_wrap .notice ul li span:nth-of-type(1) {
+        float: left;
+        width: 80%
+    }
+
+    #container .container_wrap .notice ul li span:nth-of-type(2) {
+        float: right;
+        width: 10%
+    }
+
+    #container .container_wrap .notice > a {
+        margin: 3%;
+        font-size: 1.4rem
+    }
+
+
+    footer .footer_1 {
+        width: 1024px;
+        padding: 5% 10% 0 10%
+    }
+
+    footer .footer_2 {
+        width: 1024px;
+    }
+
+}

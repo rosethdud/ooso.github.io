@@ -1,0 +1,483 @@
+@charset "utf-8";
+@import url(reset.css);
+
+#wrapper {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 850px;
+    background: url(../images/img_main_web.jpg)no-repeat 0 0;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed
+}
+
+.header_wrap {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+
+.intro {
+    float: left;
+    margin-left: 5%
+}
+
+.btn_menu,
+.btn_search {
+    display: none
+}
+
+.gnb {
+    width: 50%;
+    height: 80px;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    height: 9%;
+}
+
+.gnb ul {
+    width: 100%;
+}
+
+.gnb li {
+    float: left;
+    font-size: 1.2rem;
+    width: 16%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center
+}
+
+.gnb li:hover a {
+    color: #07c;
+    text-decoration: none;
+}
+
+.site_gnb p,
+.site_gnb ul {
+    position: absolute;
+    bottom: 8%;
+}
+
+.site_gnb p {
+    left: 10%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #4b4b4b;
+}
+
+.relative_site {
+    right: 2%;
+    font-size: 1.1rem;
+    width: 40%
+}
+
+.relative_site li {
+    float: left;
+    width: 25%;
+    color: #969696;
+    text-align: center
+}
+
+.relative_site li:after {
+    content: '|';
+    padding-left: 25%
+}
+
+.relative_site li:hover a {
+    color: #07c;
+    text-decoration: none;
+}
+
+.relative_site li:nth-of-type(4):after {
+    content: '';
+}
+
+.relative_site li a {
+    color: #6a6a6a;
+    font-weight: bold
+}
+
+
+/*container*/
+
+#container {
+    background: url(../images/bg_paper.jpg)repeat-y 0 0;
+    background-size: contain;
+    padding: 5%;
+    width: 100%;
+    height: 100%
+}
+
+.container_wrap {
+    width: 1100px;
+    margin: 0 auto
+}
+
+
+article div {
+    width: 1040px;
+    height: 600px;
+    margin: 0 auto;
+    background: url(../images/icon_triangle.png)no-repeat right bottom / 84px 84px
+}
+
+article h2 {
+    font-size: 2rem;
+    width: 20%;
+    font-weight: 400;
+    line-height: 1;
+    float: left;
+    font-family: 'arial'
+}
+
+
+article h2 span.txt {
+    color: #07c;
+}
+
+
+
+
+article a {
+    display: block;
+    width: 1036px;
+    height: 100%;
+
+
+}
+
+
+article a img {
+    margin: 2% 0 2% 0;
+    transition: all 0.3s ease-in-out
+}
+
+article a .txt {
+    float: left;
+    width: 50%;
+    padding-right: 15%;
+    margin-right: 5%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: url(../images/btn_go.png)no-repeat 90% center / 32px 32px;
+    font-size: 1rem;
+    line-height: 1.6
+}
+
+article a p span {
+    font-size: 1.8rem;
+    font-weight: 600
+}
+
+article a .date {
+    float: right;
+    font-size: 1.1rem;
+    margin-top: 2%
+}
+
+
+.looking {}
+
+.looking h2 {
+    font-size: 2rem;
+    line-height: 3;
+    padding-left: 10%;
+    font-weight: 500
+}
+
+
+.looking ul {
+    width: 1040px;
+    margin: 0 auto
+}
+
+.looking ul li {
+    float: left;
+    width: 50%;
+    height: 540px;
+    border: 1px solid #000;
+    background: url(../images/icon_triangle_looking.png)no-repeat right bottom / 64px 64px;
+
+}
+
+.looking ul li img {
+    transition: all 0.3s ease-in-out
+}
+
+.looking ul li:hover img {
+    transform: scale(0.95);
+}
+
+.looking ul li:nth-of-type(1),
+.looking ul li:nth-of-type(2) {
+    border-bottom: none;
+}
+
+.looking ul li:nth-of-type(1),
+.looking ul li:nth-of-type(3) {
+    border-right: none
+}
+
+.looking ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.looking ul li a img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%
+}
+
+.looking .txt {
+    padding-left: 5%;
+    line-height: 1.5rem;
+    font-size: 1rem
+}
+
+.txt_artist {
+    display: block;
+    width: 50%
+}
+
+.txt_date {
+    line-height: 4
+}
+
+.btn_apply {
+    background: url(../images/btn_apply.png)no-repeat 0 0/ 50px 50px;
+    width: 50px;
+    padding-top: 50px;
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    bottom: 22%
+}
+
+.relative {
+    margin: 5% 0
+}
+
+.relative h2 {
+    line-height: 3;
+    border-bottom: 1px solid #333;
+    margin: 2% 0;
+    text-align: center;
+    font-size: 1.5rem
+}
+
+.relative h2:before {
+    content: '|';
+}
+
+.relative h2:after {
+    content: '|';
+    padding-left: 10px
+}
+
+.relative .icon {
+    width: 0.5vw;
+    height: 4vh;
+    margin-right: 1%;
+    margin-top: 1%
+}
+
+.relative_con section {
+    float: left;
+    width: 33.3333%;
+    padding: 0 3%
+}
+
+.relative_con section img {
+    width: 100%
+}
+
+.relative_con section .txt {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.relative_con section .txt span {
+    font-size: 1rem
+}
+
+
+aside {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    font-size: 1rem;
+}
+
+aside span {
+    width: 33.3333%;
+    height: 60px;
+    float: left;
+    margin-top: 2%;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+aside p {
+    float: left;
+    background-color: #000;
+    margin: 0 0 2% 40%
+}
+
+aside p a.more {
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.5s ease-in-out
+}
+
+aside p a:hover {
+    background-color: #eee;
+    border: 2px solid #7c7c7c;
+    text-decoration: none;
+    color: #000;
+}
+
+.notice {
+    margin-top: 5%;
+    border-top: 1px solid #000;
+    padding: 2%;
+    background: url(../images/icon_triangle_notice.png)no-repeat right 0 / 84px 84px;
+}
+
+.notice h2 {
+    margin-bottom: 2%;
+    font-size: 2rem
+}
+
+.notice ul {
+    float: left;
+    width: 50%
+}
+
+.notice ul li {
+    line-height: 2;
+    font-size: 1rem
+}
+
+.notice ul li span {
+    display: block
+}
+
+.notice ul li span:before {
+    content: '';
+}
+
+.notice ul li a {}
+
+.notice > a {
+    float: right;
+    background: url(../images/btn_go.png)no-repeat right center/32px 32px;
+    padding-right: 40px;
+    display: block;
+    height: 32px;
+    line-height: 30px;
+    font-size: 1.5rem;
+    transition: all 0.5s ease-in-out
+}
+
+.notice > a:hover {
+    padding-right: 60px;
+}
+
+
+
+/*footer*/
+
+
+footer {
+    width: 100%;
+    height: 100%;
+}
+
+.footer_1 {
+    width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+footer .arti {
+    float: left;
+    margin-top: 30%;
+    margin-left: 10%
+}
+
+footer section {
+    float: left;
+    height: 550px;
+    line-height: 1.5;
+    border-bottom: 1px solid #333;
+    margin-top: 5%;
+}
+
+footer section:nth-of-type(1) {
+    margin-left: 8%
+}
+
+footer section:nth-of-type(2) {
+    padding-left: 5%
+}
+
+footer section ul li {
+    margin-bottom: 6%
+}
+
+
+.footer_2 {
+    width: 1600px;
+    margin: 0 auto 5% auto;
+}
+
+.footer2_wrap {
+    float: right;
+    width: 40%;
+}
+
+.footer_2 p {
+    float: left;
+    width: 34%;
+    line-height: 1.5;
+    margin-top: 3%
+}
+
+.footer_2 p span {
+    display: block;
+    margin-top: 15%
+}
+
+.footer_2 .sns {
+    float: left;
+    width: 25%
+}
+
+.footer_2 .sns h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10%
+}
+
+.footer_2 .sns a {}
+
+.letter_go {
+    line-height: 2;
+    float: left;
+}
+
+.letter_go a {
+    display: block
+}

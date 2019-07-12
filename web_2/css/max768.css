@@ -1,0 +1,154 @@
+@charset "utf-8";
+@import url(reset.css);
+
+
+@media all and (max-width:768px) {
+
+    footer,
+    #container,
+    .header {
+        width: 768px;
+    }
+
+    header {
+        height: 436px;
+        background-attachment: scroll
+    }
+
+    .gnb {
+        display: none
+    }
+
+
+    .btn_menu,
+    .btn_search {
+        display: block;
+    }
+
+    .intro {
+        width: 90%;
+        left: 0;
+    }
+
+    .intro h1,
+    .intro a {
+        float: left;
+        width: 33.3333%;
+        text-align: center;
+    }
+
+    .intro h1 img {
+        width: 110px
+    }
+
+    .intro a img {
+        width: 40px;
+        padding-top: 10px
+    }
+
+    .intro .btn_menu {
+        padding-right: 5%
+    }
+
+    .intro .btn_search {
+        padding-left: 5%
+    }
+
+    .relative_site {
+        font-size: 1rem;
+    }
+
+    #container .container_wrap article,
+    #container .container_wrap .looking,
+    #container .container_wrap .relative,
+    #container .container_wrap aside,
+    #container .container_wrap .notice {
+        width: 668px;
+    }
+
+    #container .container_wrap article div {
+        height: 500px;
+    }
+
+    #container .container_wrap article div h2 {
+        font-size: 1.6rem
+    }
+
+    #container .container_wrap article a {
+        background: url(../images/img_nowexhibition_small.jpg)no-repeat 0 30% / 100%
+    }
+
+    #container .container_wrap article a img {
+        display: none
+    }
+
+    article a .txt {
+        margin-top: 50%;
+    }
+
+
+    #container .container_wrap .looking h2 {
+        font-size: 3.5vw
+    }
+
+    #container .container_wrap .looking ul li {
+        height: 350px;
+        background-size: 30px 30px;
+    }
+
+    .looking .txt {
+        line-height: 1.5;
+        width: 80%
+    }
+
+    .txt_artist {
+        margin-top: 1%
+    }
+
+    .txt_artist,
+    .txt_date {
+        font-size: 0.8rem;
+        width: 100%
+    }
+
+    #container .container_wrap .relative_con {
+        width: 90%;
+        margin: 5% 0 0 5%
+    }
+
+    #container .container_wrap .relative_con section .txt {
+        font-size: 0.9rem
+    }
+
+    #container .container_wrap .relative_con section {
+        width: 50%;
+    }
+
+    #container .container_wrap aside p a.more {
+        width: 150px;
+        height: 30px;
+        line-height: 30px
+    }
+
+    #container .container_wrap .notice ul li {
+        background-size: 50px;
+        font-size: 0.9rem
+    }
+
+    #container .container_wrap .notice > a {
+        background-size: 25px;
+        font-size: 1.2rem
+    }
+
+    footer {
+        border: none;
+    }
+
+    footer .footer_1,
+    footer .footer_2 {
+        width: 768px;
+        font-size: 0.9rem
+    }
+
+
+}

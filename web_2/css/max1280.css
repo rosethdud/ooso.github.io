@@ -1,0 +1,104 @@
+@charset "utf-8";
+@import url(reset.css);
+
+
+@media all and (max-width:1280px) {
+
+    html,
+    body {
+        overflow-x: hidden
+    }
+
+    footer,
+    #container,
+    .header {
+        width: 1280px;
+        position: relative
+    }
+
+    header {
+        background-attachment: scroll
+    }
+
+    .intro {
+        position: absolute;
+        left: 38%
+    }
+
+    .gnb {
+        width: 90%;
+        height: 60px;
+        position: absolute;
+        top: 17%
+    }
+
+    .site_gnb p {
+        display: none
+    }
+
+    .relative_site {
+        font-size: 1rem;
+        width: 70%
+    }
+
+    #container .container_wrap article,
+    #container .container_wrap .looking,
+    #container .container_wrap .relative,
+    #container .container_wrap aside,
+    #container .container_wrap .notice {
+        width: 1180px;
+    }
+
+    footer {
+        width: 100%;
+        height: 70%;
+        margin-bottom: 10%;
+        border-bottom: 1px solid #333;
+    }
+
+    footer .footer_1 {
+        width: 1280px;
+        padding: 5% 10% 0 10%
+    }
+
+    footer .footer_1 section {
+        margin: 0;
+        padding: 0;
+        border: none;
+        width: 50%;
+        height: 300px
+    }
+
+    .swap_txt_1024 {
+        display: none
+    }
+
+    footer .arti {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+    }
+
+    footer .footer_2 {
+        margin: 0;
+        width: 1280px;
+    }
+
+    footer .footer2_wrap .sns h3 {
+        margin-bottom: 2%
+    }
+
+    footer .footer2_wrap {
+        width: 50%;
+        margin-bottom: 7%
+    }
+
+    footer .footer_2 p,
+    footer .footer_2 div {
+        width: 50%
+    }
+
+
+}

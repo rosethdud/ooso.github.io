@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import url(reset.css);
+
+@media all and (max-width:360px) {
+
+    footer,
+    #container,
+    .header {
+        width: 360px;
+    }
+
+    header {
+        height: 250px
+    }
+
+    .intro h1 img {
+        width: 55px
+    }
+
+    .intro a img {
+        width: 25px;
+        padding-top: 5px
+    }
+
+    #container .container_wrap article,
+    #container .container_wrap .looking,
+    #container .container_wrap .relative,
+    #container .container_wrap aside,
+    #container .container_wrap .notice {
+        width: 320px;
+    }
+
+    #container .container_wrap article div h2 {
+        font-size: 1.3rem;
+    }
+
+    #container .container_wrap article div {
+        height: 250px;
+        background-size: 30px
+    }
+
+    #container .container_wrap article a p {
+        line-height: 1.3
+    }
+
+    #container .container_wrap article a p.txt {
+        margin-top: 51%;
+        background-size: 20px;
+        font-size: 0.8rem
+    }
+
+    #container .container_wrap article a p span {
+        font-size: 1.1rem
+    }
+
+    #container .container_wrap article a p.date {
+        font-size: 0.7rem
+    }
+
+    #container .container_wrap .looking h2 {
+        font-size: 1.2rem;
+    }
+
+    #container .container_wrap .looking ul {
+        width: 90%;
+    }
+
+    #container .container_wrap .looking ul li {
+        height: 280px;
+    }
+
+    #container .container_wrap .looking ul li .txt_artist {
+        font-size: 0.7rem;
+        width: 60%;
+    }
+
+    #container .container_wrap .looking ul li .txt_date {
+        display: none
+    }
+
+    #container .container_wrap .looking ul li p.btn_apply {
+        background-size: 30px;
+        width: 30px;
+        font-size: 0;
+        bottom: 10%
+    }
+
+
+    #container .container_wrap .relative h2 {
+        font-size: 1.2rem;
+    }
+
+    #container .container_wrap .relative_con section .txt {
+        font-size: 0.8rem;
+        width: 100%;
+        height: 70px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+
+    #container .container_wrap .relative_con section .txt span {
+        font-size: 0.7rem
+    }
+
+
+    #container .container_wrap aside p {
+        margin: 0 0 3% 25%;
+    }
+
+    #container .container_wrap .notice {
+        background-size: 40px
+    }
+
+    #container .container_wrap .notice h2 {
+        font-size: 1.5rem
+    }
+
+    #container .container_wrap .notice ul li {
+        font-size: 0.7rem;
+    }
+
+    #container .container_wrap .notice ul li span:nth-of-type(1) {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis
+    }
+
+    #container .container_wrap .notice > a {
+        font-size: 0.8rem
+    }
+
+
+
+    footer {
+        height: 100px
+    }
+
+    footer img.arti {
+        width: 100px;
+    }
+
+    .swap_txt {
+        display: none
+    }
+
+}
