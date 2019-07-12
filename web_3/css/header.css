@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+
+#wrap {
+    width: 100vw;
+}
+
+.header_B {
+    height: 900px; width:100%;
+    background: url(../images/lotteimg.jpg)no-repeat 0 0;
+    background-size: cover;
+}
+
+header {
+    padding: 10px 50px 0 0px;
+    width: 100vw;
+    height: 110px;
+}
+
+header h1 {
+    float: left;
+    position: absolute;
+    z-index: 2
+}
+
+header h1 img {
+    margin-left: 100px;
+    z-index: 99;
+}
+
+header nav.gnb_W {
+    text-align: center;
+    padding: 50px 250px 0 0;
+    float: right;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index:3;
+    right:0;
+    
+}
+
+header .gnb_W a {
+    color: #fff;
+    line-height: 2.5;
+    text-decoration: none;
+    
+}
+
+header .gnb_W ul {}
+
+header .gnb_W ul .gnb_1 {
+    float: left;
+    margin-left: 20px;
+    width:150px
+}
+
+header .gnb_W ul .gnb_1 > a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header .gnb_W ul li ul.gnb_2 {
+    margin-top: 18px;
+    font-size:14px;
+    
+}
+
+header .gnb_W ul li ul.gnb_2 li a:hover {color:#179f99}
+
+.nav_back {
+    width: 100vw;
+    height: 400px;
+    position: absolute;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom:5px solid #136965
+}
+
+
+.nav_back,
+.gnb_2 {
+    display:none
+}

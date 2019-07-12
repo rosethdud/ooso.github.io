@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+footer{width:100vw; height:350px; background-color:#19477b; }
+
+
+.footer_back{width:1400px; margin:0 auto}
+.footerlogo{width:200px; height:200px; padding-top:120px; float: left}
+
+
+.adress_copy_W{ height:200px;float: left; padding:65px 0 65px 120px}
+
+
+.adress_copy_W .adress_copy{padding-top:35px; font-size:11px; color:#fff; line-height:2; letter-spacing: 0.08em}
+
+
+.footer_right{height:200px; float: right; margin-top:50px}
+
+.quick_menu{height:50px; width:450px; line-height: 45px; text-align: center; border:1px solid #fff;margin-bottom:40px;}
+.quick_menu select{background-color: #19477b; color:#fff;  height:25px;width:160px; margin-right: 30px; font-size:11px;}
+
+.quick_menu select:last-child{margin-right:0}
+
+.logo_W{text-align: center}
+.logo_W img {margin-right: 50px}
+.logo_W img:last-child{margin-right:0;}
+
+
+
